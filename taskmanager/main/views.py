@@ -5,4 +5,19 @@ from django.shortcuts import render
 
 def index(request):
     return render(request,'main/index.html')
-# дерьмо               return HttpResponse('<h4>Whats up?</h4>')
+def about(request):
+    return render(request,'main/about.html')
+def news(request):
+    return render(request,'main/news.html')
+def support(request):
+    return render(request,'main/support.html')
+def tours(request):
+    return render(request,'main/tours.html')
+def products(request):
+    return render(request,'main/products.html')
+# /---\
+#  0-0
+#   |
+# /|||\
+#/ ||| \
+# /   \
