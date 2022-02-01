@@ -15,6 +15,10 @@ def tours(request):
     return render(request,'main/tours.html')
 def products(request):
     return render(request,'main/products.html')
+def maybe(request):
+    return render(request,'main/maybe.html')
+def empty(request):
+    return render(request,'main/empty.html')
 # /---\
 #  0-0
 #   |
