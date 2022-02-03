@@ -5,9 +5,13 @@ git commit -m "25.01"
 git branch -M main
 git remote add origin https://github.com/FerterH/Django1.git
 git push -u origin main
-1
-1
-1
+
+
+
+                миграции
+    python manage.py makemigrations
+    python manage.py migrate
+
 
  django-admin startproject taskmanager
 PS C:\Users\IT-12\PycharmProjects\Django> cd .\taskmanager\https://github.com/FerterH/Django1.git

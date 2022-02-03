@@ -11,6 +11,6 @@ urlpatterns = [
     path('tours', views.tours, name='tours'),
     path('products', views.products, name='products'),
     path('maybe', views.maybe),
-    path('empty', views.empty, name='empty'),
+    path('empty', views.empty, name='vzlom'),
 
 ]
