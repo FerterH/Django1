@@ -5,7 +5,7 @@ git commit -m "25.01"
 git branch -M main
 git remote add origin https://github.com/FerterH/Django1.git
 git push -u origin main
-
+n
 
 
                 миграции
