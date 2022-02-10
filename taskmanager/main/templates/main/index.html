@@ -15,6 +15,22 @@
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 
   </div>
+<style>
+.example-1 {
+    padding-left: 600px;
+    background-color: gray;
+
+}
+
+</style>
+<div class="example-1">
+     {%for i in tasks%}
+      <font color="red">
+          {{ i.title }}
+          {{ i.task }}
+          </font>
+    {%endfor%}
+</div>
 
 
 <div class="bg-dark text-secondary px-4 py-5 text-center">
@@ -29,5 +45,5 @@
       </div>
     </div>
   </div>
-    {{ tasks }}
+
 {%endblock%}
